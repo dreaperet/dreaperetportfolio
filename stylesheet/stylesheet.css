@@ -1,0 +1,19 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+background-color: white;
+border: 1px solid black;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+nav li{
+    border: 1px solid black;
+}
