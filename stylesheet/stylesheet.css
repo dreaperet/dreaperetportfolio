@@ -1,19 +1,15 @@
-body{
+* {
     padding: 0px;
     margin: 0px;
 }
 
-.navbar{
-background-color: white;
-border: 1px solid black;
-}
-
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
-
-nav li{
-    border: 1px solid black;
+h1 {
+    left:50%;
+    top:50%;
+    text-align: center;
+    transform: translateY(40px);
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
 }
