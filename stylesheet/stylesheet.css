@@ -1,15 +1,33 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
-h1 {
-    left:50%;
-    top:50%;
+.menu {
+    margin: 40px;
     text-align: center;
-    transform: translateY(40px);
     font-style: oblique;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 45px;
+    font-size: 20px;
+    padding-right: 30px;
+    float:right;
+}
+
+.menu a {
+    color: #b2ba97;
+    text-decoration: none;
+    padding: 0px 45px;
+}
+
+.menu a:hover {
+    color: #41461c;
+    text-decoration: none;
+}
+
+#portrait {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+#name {
+    position: fixed;
+    
 }

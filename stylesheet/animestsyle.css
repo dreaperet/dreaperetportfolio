@@ -14,10 +14,12 @@
     fill:#364c37;
 }
 
+/*
 .info {
     animation-delay: 8s;
     animation: show 3s linear forwards;
 }
+*/
 
 .nameDrawing {
     animation: bigtosmol 3s linear forwards;
