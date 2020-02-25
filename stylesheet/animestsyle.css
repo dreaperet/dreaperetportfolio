@@ -1,59 +1,37 @@
-.drea{
-    fill:none;
-    stroke:#9ca696;
-    stroke-miterlimit:10;
-    stroke-width:1.5px;
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
 }
-.cls-1 {
-    stroke-dasharray: 400px;
-    stroke-dashoffset: 400px;
-    animation: offset 2.5s linear forwards;
+body{
+  height: calc(100vh - 8em);
+  color: rgba(255,255,255,.75);
+  font-family: 'Courier New', Courier, monospace;  
+}
+.line-1{
+    position: relative;
+    top: 68%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-75%);    
 }
 
-.peret{
-    fill:#364c37;
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
 }
-
-/*
-.info {
-    animation-delay: 8s;
-    animation: show 3s linear forwards;
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 26em;}
 }
-*/
-
-.nameDrawing {
-    animation: bigtosmol 3s linear forwards;
-}
-
-@keyframes bigtosmol {
-    0% {
-        height: 1000px;
-        width: 1000px;
-        margin: auto;
-    }
-    25% {
-        height: 1000px;
-        width: 1000px;
-        margin: auto;
-    }
-    to {
-        height: 250px;
-        width: 250px;
-        margin: auto;
-    }
-}
-
-@keyframes offset {
-    to {
-      stroke-dashoffset: 0px;
-    }
-}
-
-@keyframes show {
-    from {
-        opacity: 0.0;
-    }
-    to {
-        opacity: 1.0;
-    }
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(178, 186, 151, 1);}
+  to{border-right-color: transparent;}
 }
