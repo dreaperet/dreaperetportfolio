@@ -21,19 +21,19 @@
 }
 
 #portrait {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     right: 0px;
     z-index: -1;
 }
 
 #name {
-    position: fixed;
+    position: absolute;
     z-index: -1;
 }
 
 #leaves {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     left: 0px;
     top: 0px;
@@ -44,4 +44,9 @@
 p {
     color: #1f1b0f;
     
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
