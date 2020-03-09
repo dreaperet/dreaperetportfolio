@@ -90,7 +90,11 @@ body {
 .column {
     float: left;
     width: 33.33%;
-    padding: 30px;
+    padding: 20px;
+}
+
+.column a:hover {
+    opacity: 65%;
 }
   
 .row {
@@ -100,6 +104,6 @@ body {
 }
 
 .belowNav {
-    padding-left: 10%;
+    padding-left: 7%;
     overflow-y: visible;
 }
