@@ -1,3 +1,15 @@
+/* GENERAL */
+p {
+    color: #1f1b0f;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/* HOME PAGE */
 .menu {
     margin: 40px;
     text-align: center;
@@ -41,12 +53,53 @@
     opacity: 45%;
 }
 
-p {
-    color: #1f1b0f;
-    
+ /* CONTACT */
+
+#about h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e9cece;
+    z-index: 1;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
+#about {
+    transform: translate(48%, -400px);
+}
+
+#bio p {
+    transform: translateY(40px);
+}
+
+#aboutpic {
+    width: 400px;
+    height: 598.6px;
+    transform: translate(60%,20%);
+}
+
+#contactleaves {
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    transform: translateX(-18%);
+    opacity: 40%;
+}
+
+/* GRAPHICS PAGE */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+  
+.row {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.belowNav {
+    padding-left: 10%;
+    overflow-y: visible;
 }

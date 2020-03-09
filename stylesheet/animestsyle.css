@@ -10,9 +10,10 @@ body{
   color: rgba(255,255,255,.75);
   font-family: 'Courier New', Courier, monospace;  
 }
-.line-1{
+
+.line-1 {
     position: relative;
-    top: 68%;
+    top: 66%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
